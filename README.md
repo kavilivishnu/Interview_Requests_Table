@@ -1,3 +1,5 @@
+The application can be viewed here: https://github.com/kavilivishnu/Interview_Requests_Table (Currently, the application is programmed to be displayed only on the desktop and laptop devices. Mobile view will be included soon.)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
