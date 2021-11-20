@@ -2,37 +2,170 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.Nav {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  flex-direction: row;
+  background-color: rgb(31, 31, 31);
+  height: 60px;
+}
+
+.search {
+  height: 35px;
+  width: 120%;
+  /* margin-right: -15%; */
+  margin-left: 100%;
+  border-radius: 10px 10px 10px 10px;
+  outline: none;
+  border: none;
+  text-indent: 30px;
+}
+
+.heading {
+  margin-top: 5%;
+  /* margin-left: -67%; */
+  margin-left: 5%;
+}
+
+/* .background {
+  background-color: dodgerblue;
+  width: 14%;
+  padding: 13px 0px 0px 0px;
+  margin-left: 80%;
+  border-radius: 35px 35px 35px 35px;
+} */
+
+.background {
+  background-color: dodgerblue;
+  width: 14%;
+  padding: 17px 0px 0px 0px;
+  margin-left: 55%;
+  border-radius: 35px 35px 35px 35px;
+  height: 65px;
+  margin-top: 4%;
+}
+
+.status {
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.status1 {
+  color: white;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.toggle-button::before {
+  position: relative;
 }
+
+.right {
+  /* margin-left: -7%; */
+  margin-left: 120%;
+  transition: 0.3s;
+}
+
+.left {
+  /* margin-left: 9%; */
+  margin-top: 130%;
+  margin-left: -160%;
+  transition: 0.3s;
+}
+
+.toggle-button {
+  transition: 0.3s;
+}
+
+.toggle-icons-minus {
+  size: 30px;
+  color: white;
+  cursor: pointer;
+  margin-top: -79%;
+}
+
+.toggle-icons-plus {
+  size: 30px;
+  color: white;
+  cursor: pointer;
+  margin-top: -50%;
+}
+
+.profile-picture {
+  width: 35px;
+  height: 35px;
+  border-radius: 45px 45px 45px 45px;
+}
+
+.table-head-background {
+  background-color: rgb(197, 239, 255);
+}
+
+.archived {
+  color: rgb(255, 46, 46);
+  font-weight: bolder;
+  padding: 10px 15px 10px 15px;
+  background-color: rgb(255, 231, 231);
+  border-radius: 10px 10px 10px 10px;
+}
+
+
+.active {
+  color: rgb(150, 250, 0);
+  font-weight: bolder;
+  padding: 10px 15px 10px 15px;
+  background-color: rgb(231, 255, 231);
+  border-radius: 10px 10px 10px 10px;
+}
+
+
+/* ------------------------------------------------------------------------------------------- STANDARD STYLING ------------------------------------------------------------------------------------------ */
+
+/* .App {
+  text-align: center;
+}
+
+.background {
+  background-color: dodgerblue;
+  width: 14%;
+  padding: 16px 0px 3.5px 0px;
+  margin-left: 80%;
+  border-radius: 35px 35px 35px 35px;
+}
+
+.status {
+  color: white;
+}
+
+.status1 {
+  color: white;
+}
+
+.toggle-button::before {
+  position: relative;
+}
+
+.right {
+  margin-left: 120%;
+  transition: 0.3s;
+}
+
+.left {
+  margin-top: 130%;
+  margin-left: -160%;
+  transition: 0.3s;
+}
+
+.toggle-button {
+  transition: 0.3s;
+}
+
+.toggle-icons-minus {
+  size: 30px;
+  color: white;
+  cursor: pointer;
+  margin-top: -79%;
+}
+
+.toggle-icons-plus {
+  size: 30px;
+  color: white;
+  cursor: pointer;
+  margin-top: -50%;
+} */
