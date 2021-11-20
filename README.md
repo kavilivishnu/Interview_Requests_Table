@@ -1,4 +1,4 @@
-The application can be viewed here: https://github.com/kavilivishnu/Interview_Requests_Table (Currently, the application is programmed to be displayed only on the desktop and laptop devices. Mobile view will be included soon.)
+The application can be viewed here: https://interviewees.netlify.app/ (Currently, the application is programmed to be displayed only on the desktop and laptop devices. Mobile view will be included soon.)
 
 # Getting Started with Create React App
 
